@@ -18,6 +18,7 @@ public:
         
         for(int i = 0; i < nums.size(); i++){
             indices[0] = i;
+            
             j = findSecondIndex(nums, target - nums[i], i+1);
             indices[1] = j;
             if(indices[1] != 0 && i < indices[1] && indices[1] < nums.size())
