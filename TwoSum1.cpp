@@ -3,7 +3,6 @@
 #include <map>
 
 using namespace std;
-
 /*start*/
 vector<int> twoSum(vector<int>& nums, int target) {
     vector<int> indices{0, 0};
@@ -34,7 +33,6 @@ vector<int> twoSum(vector<int>& nums, int target) {
     return indices;
 }
 /*end*/
-
 int main() {
     vector<int> givenNums{3, 2, 4};
     int givenTarget = 6;
