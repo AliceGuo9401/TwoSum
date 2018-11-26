@@ -1,6 +1,5 @@
 #include <vector>
 #include <iostream>
-
 using namespace std;
 /*start*/
 int findSecondIndex(vector<int>& nums, int target, int start) {
