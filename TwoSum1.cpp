@@ -1,7 +1,6 @@
 #include <vector>
 #include <iostream>
 #include <map>
-
 using namespace std;
 /*start*/
 vector<int> twoSum(vector<int>& nums, int target) {
@@ -9,7 +8,7 @@ vector<int> twoSum(vector<int>& nums, int target) {
     multimap<int, int> numsMultimap;  //关键字可重复出现的map，定义在头文件map中
 
     for(int i = 0;i < nums.size(); i++)
-        numsMultimap.insert( {nums[i], i} );  //insert成员向容器中添加一个元素
+        numsMultimap.insert( {nums[i], i} );  //insert()成员向容器中添加一个元素
 
     for(int i = 0; i < nums.size(); i++){
         indices[0] = i;
